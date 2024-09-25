@@ -5,7 +5,7 @@ resource "aws_vpc" "newvpc" {
   
   tags = {
   
-   Name = "Terraform-VPC-new"
+   Name = "TerraformNew-VPC"
    Env = "Staging"
    POC = "Alaguraj Mathialagan"
    
