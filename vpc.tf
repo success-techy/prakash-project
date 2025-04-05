@@ -18,16 +18,16 @@ locals {
 
    subnets = [
    
-   {name = "public-subnet1", cidr = "192.168.0.0/26", az= "us-west-1a" },
-   {name = "public-subnet2", cidr = "192.168.0.64/26", az= "us-west-1b" },
+   {name = "public-subnet1", cidr = "192.168.0.0/26", az= "us-east-1a" },
+   {name = "public-subnet2", cidr = "192.168.0.64/26", az= "us-east-1b" },
    
 
   ]
   
     subnets1 = [
    
-   {name = "private-subnet1", cidr = "192.168.0.128/26", az= "us-west-1a" },
-   {name = "private-subnet2", cidr = "192.168.0.192/26", az= "us-west-1b" },
+   {name = "private-subnet1", cidr = "192.168.0.128/26", az= "us-east-1a" },
+   {name = "private-subnet2", cidr = "192.168.0.192/26", az= "us-east-1b" },
 
   ]
       
